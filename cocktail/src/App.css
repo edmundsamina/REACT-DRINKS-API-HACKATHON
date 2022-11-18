@@ -1,38 +1,90 @@
+@font-face {
+  font-family:  'Nabla';
+  src: url('../public/Nabla-Regular-VariableFont_EDPT\,EHLT.ttf');
+}
+@font-face {
+  font-family: 'Roboto Mono';
+  src: url('../public/RobotoMono-VariableFont_wght.ttf');
+}
+
 .App {
-  text-align: center;
-}
-
-.App-logo {
-  height: 40vmin;
-  pointer-events: none;
-}
-
-@media (prefers-reduced-motion: no-preference) {
-  .App-logo {
-    animation: App-logo-spin infinite 20s linear;
-  }
-}
-
-.App-header {
-  background-color: #282c34;
-  min-height: 100vh;
+  background-color:#293241;
   display: flex;
   flex-direction: column;
+  align-content: center;
   align-items: center;
-  justify-content: center;
-  font-size: calc(10px + 2vmin);
-  color: white;
+  justify-content: space-evenly;
+  height: 100vh;
+  width: 100vw;
 }
 
-.App-link {
-  color: #61dafb;
+.buttonsContainer{
+  display: flex;
+  flex-direction: row;
+  gap: 20px;
+  background-color: rgb(255, 240, 255);
 }
 
-@keyframes App-logo-spin {
-  from {
-    transform: rotate(0deg);
-  }
-  to {
-    transform: rotate(360deg);
-  }
+input{
+  height: 40px;
+  width: 180px;
+}
+.randomDrink{
+  display: flex;
+  font-family: 'Roboto Mono';
+  background-color: rgb(255, 255, 255);
+  flex-direction: column;
+  align-content: center;
+  align-items: center;
+  height: 40vh;
+  width: 20vw;
+  border-style: ridge;
+  border-color:#293241;
+  border-width: 5px;
+}
+
+.newDrink{
+  display: flex;
+  font-family: 'Roboto Mono';
+  background-color: rgb(255, 255, 255);
+  flex-direction: column;
+  align-content: center;
+  align-items: center;
+  height: 40vh;
+  width: 20vw;
+ 
+}
+
+.randomButton{
+  background-color: #e62323;
+  border: 2px solid rgb(255, 255, 255);
+  border-radius: 0px;
+  padding: 20px 40px;
+  font-family: 'Roboto Mono';
+  font-size: 20px;
+}
+
+img{
+  height: 40%;
+  width: 40%;
+}
+
+h1{
+  font-family: 'Nabla';
+  font-size: 100px;
+  
+}
+
+.sub-heading{
+  font-family: 'Roboto Mono';
+  font-size: 30px;
+ font-weight: 600;
+ color: azure;
+}
+
+.cardContainer {
+  display: flex;
+  flex-direction: row;
+  gap:50px;
+
 }
