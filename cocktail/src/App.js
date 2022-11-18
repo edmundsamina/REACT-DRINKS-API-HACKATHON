@@ -64,7 +64,7 @@ function App() {
       </div>
       <div className="cardContainer">
         <Card
-          className="randomDrink"
+          className="newDrink"
           drinkName={drinkName}
           drinkImg={drinkImg}
           strInstructions={instructions}

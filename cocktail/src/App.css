@@ -1,3 +1,12 @@
+*{
+  margin: 0;
+	padding: 0;
+	border: 0;
+	font-size: 100%;
+	font: inherit;
+	vertical-align: baseline;
+}
+
 @font-face {
   font-family:  'Nabla';
   src: url('../public/Nabla-Regular-VariableFont_EDPT\,EHLT.ttf');
@@ -15,7 +24,7 @@
   align-items: center;
   justify-content: space-evenly;
   height: 100vh;
-  width: 100vw;
+  /*width: 100vw;*/
 }
 
 .buttonContainer{
@@ -33,19 +42,6 @@ input{
   display: flex;
   flex-direction: column;
 }
-.randomDrink{
-  display: flex;
-  font-family: 'Roboto Mono';
-  background-color: rgb(255, 255, 255);
-  flex-direction: column;
-  align-content: center;
-  align-items: center;
-  height: 40vh;
-  width: 20vw;
-  border-style: ridge;
-  border-color:#293241;
-  border-width: 5px;
-}
 
 .newDrink{
   display: flex;
@@ -56,7 +52,8 @@ input{
   align-items: center;
   height: 40vh;
   width: 20vw;
- 
+  padding: 10px;
+  border-radius: 5px;
 }
 
 .randomButton{
