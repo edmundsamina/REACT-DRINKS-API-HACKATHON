@@ -1,0 +1,12 @@
+.header{
+    text-decoration: underline;
+    font-size: 1.5rem;
+}
+
+.img{
+    border-radius: 3px;
+    padding-top: 20px;
+}
+p{
+    padding: 20px;
+}

@@ -50,7 +50,7 @@ input{
   flex-direction: column;
   align-content: center;
   align-items: center;
-  height: 40vh;
+  /*height: 40vh;*/
   width: 20vw;
   padding: 10px;
   border-radius: 5px;
@@ -73,8 +73,7 @@ input{
   font-size: 20px;
 }
 img{
-  height: 40%;
-  width: 40%;
+    width: 40%;
 }
 
 h1{
