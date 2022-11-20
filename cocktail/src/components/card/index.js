@@ -5,6 +5,7 @@ export default function Card(props) {
   return (
     <div className = {props.className}>
     <h3 className='header'>{props.drinkName}</h3>
+    {props.children}
     <img className='img' src={props.drinkImg} alt={props.drinkName}/>
     <p>{props.strInstructions}</p>
     </div>
